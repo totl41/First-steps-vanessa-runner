@@ -1,0 +1,40 @@
+{
+"uuid": "8dacdd55-729f-4ed5-9ee8-43ddef919f68",
+"historyId": "УпрФорма # Тесты_ОткрытиеФормКонфигурации.Документы.Документ.Заказ.Форма.ФормаСписка : открытие формы списка",
+"name": "Документ.Заказ.Форма.ФормаСписка : открытие формы списка",
+"fullName": "",
+"start": 1659385618076,
+"stop": 1659385620139,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Документы"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+},
+{
+"name": "package",
+"value": "УпрФорма # D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\smoke\\Тесты_ОткрытиеФормКонфигурации.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ОткрытьФормуПоПолномуИмениФормы"
+}

@@ -1,0 +1,40 @@
+{
+"uuid": "baca1de2-47be-45e2-ac93-8ee096c415c9",
+"historyId": "УпрФорма # Tests_SmokeCommonModules.Общие модули.Общий модуль : РаботаСПочтойВызовСервера {}",
+"name": "Общий модуль : РаботаСПочтойВызовСервера {}",
+"fullName": "",
+"start": 1659385650484,
+"stop": 1659385650503,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Общие модули"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+},
+{
+"name": "package",
+"value": "УпрФорма # D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\smoke\\Tests_SmokeCommonModules.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Fact_ServerCallModule"
+}

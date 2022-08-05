@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<Constant uuid="5aac52c8-cf1c-47ff-887f-d8742cf4b931">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.КонстантаТест2" category="Manager">
+				<xr:TypeId>0e614007-7fd2-45a8-91e1-826ec0490f23</xr:TypeId>
+				<xr:ValueId>dc72f14b-38ed-4ada-8463-0b45538d8d58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.КонстантаТест2" category="ValueManager">
+				<xr:TypeId>e5e51bab-dff5-447b-a3b8-0340471c9fa9</xr:TypeId>
+				<xr:ValueId>6ec17d7f-a39e-4c23-9081-60f19652d6c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.КонстантаТест2" category="ValueKey">
+				<xr:TypeId>27015511-7093-4c27-b558-f2fe2e7917b9</xr:TypeId>
+				<xr:ValueId>fbef00c0-3a20-4d31-a1eb-a31542d99d61</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КонстантаТест2</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Константа тест2</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format/>
+			<EditFormat/>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+	</Constant>
+</MetaDataObject>

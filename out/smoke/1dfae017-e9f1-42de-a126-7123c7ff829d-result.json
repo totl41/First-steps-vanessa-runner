@@ -1,0 +1,40 @@
+{
+"uuid": "5960492d-dbb0-4f16-9bec-9f036232c7f8",
+"historyId": "УпрФорма # Tests_SmokeCommonModules.Общие модули.Общий модуль : ОбменМобильныеКлиент {}",
+"name": "Общий модуль : ОбменМобильныеКлиент {}",
+"fullName": "",
+"start": 1659385650337,
+"stop": 1659385650357,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Общие модули"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+},
+{
+"name": "package",
+"value": "УпрФорма # D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\smoke\\Tests_SmokeCommonModules.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Fact_ClientModule"
+}

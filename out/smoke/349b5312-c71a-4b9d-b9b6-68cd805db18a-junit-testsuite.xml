@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name xmlns="">Документ.Заказ</name>
+	<labels xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<label name="framework" value="xUnitFor1C"/>
+		<label name="language" value="1С"/>
+	</labels>
+	<test-cases xmlns="" xmlns:d2p1="urn:model.allure.qatools.yandex.ru">
+		<test-case start="1659385614082" stop="1659385614319" status="passed">
+			<name>Тест_ПечатьЗаказа</name>
+			<title>Тест_ПечатьЗаказа</title>
+		</test-case>
+	</test-cases>
+</ns2:test-suite>

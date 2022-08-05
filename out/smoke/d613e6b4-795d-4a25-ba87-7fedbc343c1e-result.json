@@ -1,0 +1,40 @@
+{
+"uuid": "0ec1a515-e2d4-4a5d-8a80-1ec2901923fb",
+"historyId": "Тесты проверка макетов СКД.Отчеты.Валидация корректности запроса СКД в ДашбордПродажи: ОсновнаяСхемаКомпоновкиДанных",
+"name": "Валидация корректности запроса СКД в ДашбордПродажи: ОсновнаяСхемаКомпоновкиДанных",
+"fullName": "",
+"start": 1659385614400,
+"stop": 1659385614405,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Отчеты"
+},
+{
+"name": "feature",
+"value": "Тесты проверка макетов СКД"
+},
+{
+"name": "package",
+"value": "D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\smoke\\тесты_ПроверкаМакетовСКД.epf"
+},
+{
+"name": "host",
+"value": "Тесты проверка макетов СКД"
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ПроверитьМакетСКД"
+}

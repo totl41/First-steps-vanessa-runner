@@ -1,0 +1,40 @@
+{
+"uuid": "8f95e774-3d1a-4e61-9741-5c603955d4dc",
+"historyId": "УпрФорма # Tests_SmokeCommonModules.Общие модули.Общий модуль : ГеопозиционированиеКлиент {}",
+"name": "Общий модуль : ГеопозиционированиеКлиент {}",
+"fullName": "",
+"start": 1659385650261,
+"stop": 1659385650280,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Общие модули"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+},
+{
+"name": "package",
+"value": "УпрФорма # D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\smoke\\Tests_SmokeCommonModules.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Fact_ClientModule"
+}

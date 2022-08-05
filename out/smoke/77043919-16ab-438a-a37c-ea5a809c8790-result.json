@@ -1,0 +1,40 @@
+{
+"uuid": "f2dbbd98-9d1c-4bd7-94b5-15c6c61feb4b",
+"historyId": "УпрФорма # Тесты_ОткрытиеФормКонфигурации.Документы.Документ.Заказ.Форма.ФормаДокумента : открытие формы объекта при создании",
+"name": "Документ.Заказ.Форма.ФормаДокумента : открытие формы объекта при создании",
+"fullName": "",
+"start": 1659385614477,
+"stop": 1659385616194,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Документы"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+},
+{
+"name": "package",
+"value": "УпрФорма # D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\smoke\\Тесты_ОткрытиеФормКонфигурации.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ОткрытьФормуНовогоДокумента"
+}

@@ -1,0 +1,40 @@
+{
+"uuid": "43f5d503-f8b0-449b-88cb-1d15c378552b",
+"historyId": "УпрФорма # Tests_SmokeCommonModules.Общие модули.Общий модуль : УведомленияКлиент {}",
+"name": "Общий модуль : УведомленияКлиент {}",
+"fullName": "",
+"start": 1659385650284,
+"stop": 1659385650303,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Общие модули"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+},
+{
+"name": "package",
+"value": "УпрФорма # D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\smoke\\Tests_SmokeCommonModules.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Tests_SmokeCommonModules"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Fact_ClientModule"
+}

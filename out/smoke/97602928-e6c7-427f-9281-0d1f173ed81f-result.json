@@ -1,0 +1,40 @@
+{
+"uuid": "5bde48c6-12f1-4e53-a602-21cb9dee2f2e",
+"historyId": "УпрФорма # Тесты_ОткрытиеФормКонфигурации.Документы.Документ.РасходТовара.Форма.ФормаДокумента : открытие формы записанного объекта",
+"name": "Документ.РасходТовара.Форма.ФормаДокумента : открытие формы записанного объекта",
+"fullName": "",
+"start": 1659385646145,
+"stop": 1659385648122,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Документы"
+},
+{
+"name": "feature",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+},
+{
+"name": "package",
+"value": "УпрФорма # D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\smoke\\Тесты_ОткрытиеФормКонфигурации.epf"
+},
+{
+"name": "host",
+"value": "УпрФорма # Тесты_ОткрытиеФормКонфигурации"
+}
+],
+"links": [],
+"attachments": [],
+"description": "ТестДолжен_ОткрытьФормуСуществующегоЭлементаДокумента"
+}

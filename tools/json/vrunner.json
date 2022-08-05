@@ -1,21 +1,21 @@
 {
     "$schema": "https://raw.githubusercontent.com/vanessa-opensource/vanessa-runner/develop/vanessa-runner-schema.json",
     "default": {
-        "--ibconnection": "/FC:/Users/Maxim Samokhval/Documents/Bases/Platform8Demo",
+        "--ibconnection": "/FD:/Project/UNIT_TESTS/BasesDemo",
         "--db-user": "Администратор",
         "--db-pwd": "",
-        "--v8version": "8.3.18"
+        "--v8version": "8.3.21"
     },
     "syntax-check": {
-        "--groupbymetadata": false,
-        "--exception-file": "./tools/syntax_check_exception.txt",
+        "--groupbymetadata": true,
+        "--exception-file": ".tools/syntax_check_exception.txt",
         "--junitpath": "out/syntaxCheck/junit",
         "--allure-results2": "out/syntaxCheck/allure",
-        "--ibconnection": "/FC:/Users/Maxim Samokhval/Documents/Bases/Platform8Demo",
+        "--ibconnection": "/FD:/Project/UNIT_TESTS/BasesDemo",
         "--db-user": "Администратор",
         "--db-pwd": "",
-        "--v8version": "8.3.18",
-        "--storage-name": "C:/development/repo/demo",
+        "--v8version": "8.3.21",
+        "--storage-name": "D:/Project/UNIT_TESTS/RepoBasesDemo",
         "--debuglogfile": false,
         "--storage-user": "Администратор",
         "--mode": [
@@ -32,11 +32,17 @@
         ]
     },
     "xunit": {
-        "inputPath": "./tests/",
-        "--reportxunit": "./build/xunit.xml"
-    },
+            "--xddConfig": "./tools/json/xUnitParams.json",
+            "--reportsxunit": "ГенераторОтчетаAllureXML{out/smoke/junit.xml};ГенераторОтчетаAllureXMLВерсия2{out/smoke/allure.xml}",
+            "--workspace": ".",
+            "--db-user": "Администратор",
+            "--db-pwd": "",
+            "--testclient": "Администратор::1538",
+            "--pathxunit": "./xddTestRunner.epf",
+            "testsPath": "./tests"
+     },
     "updatedb": {
-        "--ibconnection": "/FC:/Users/Maxim Samokhval/Documents/Bases/Platform8Demo",
+        "--ibconnection": "/FD:/Project/UNIT_TESTS/BasesDemo",
         "--db-user": "Администратор",
         "--uccode": "godModeOn"
     },
@@ -45,8 +51,8 @@
         "outputPath": "./build/1Cv8.cf"
     },
     "designer": {
-        "--ibconnection": "/FC:/Users/Maxim Samokhval/Documents/Bases/Platform8Demo",
-        "--storage-name": "C:/development/repo/demo",
+        "--ibconnection": "/FD:/Project/UNIT_TESTS/BasesDemo",
+        "--storage-name": "D:/Project/UNIT_TESTS/RepoBasesDemo",
         "--storage-user": "Администратор"
     }
 

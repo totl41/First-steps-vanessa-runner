@@ -563,6 +563,7 @@
 							</dcsset:filter>
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:use>false</dcscor:use>
 									<dcscor:parameter>РазмерКартинки</dcscor:parameter>
 									<dcscor:value xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet" xsi:type="mxl:PictureSize">Proportionally</dcscor:value>
 								</dcscor:item>

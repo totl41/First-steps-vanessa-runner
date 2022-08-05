@@ -128,6 +128,10 @@
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
 					<dcscor:value xsi:type="xs:string">Antique</dcscor:value>
 				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
@@ -150,7 +154,21 @@
 						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 					</dcsset:order>
 					<dcsset:selection>
-						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Товар</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Артикул</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Цена</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Товар.[9d5c4227-8c4c-11db-a9b0-00055d49b45e]</dcsset:field>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:SelectedItemField">
+							<dcsset:field>Изображение</dcsset:field>
+						</dcsset:item>
 					</dcsset:selection>
 				</dcsset:item>
 			</dcsset:item>

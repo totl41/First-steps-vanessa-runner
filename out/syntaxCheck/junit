@@ -1,39 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<testsuites name="CheckConfig.base" tests="7" failures="1" skipped="6" time="8">
+<testsuites name="CheckConfig.base" tests="9" failures="9" skipped="0" time="10810.2496387">
     <testsuite name="CheckConfig.base">
         <properties/>
-        <testcase classname="CheckConfig.base.Пропущено" name="Справочник.Встречи.Форма.Календарь.Форма">
-            <skipped/>
-            <system-out>Не обнаружено ссылок на процедуру: "ЗаписатьВКалендарь"</system-out>
+        <testcase classname="CheckConfig.base.Ошибка" name="Справочник.Встречи.Форма.Календарь.Форма">
+            <failure type="ERROR" message="Не обнаружено ссылок на процедуру: &quot;ЗаписатьВКалендарь&quot;"/>
         </testcase>
-        <testcase classname="CheckConfig.base.Пропущено" name="Справочник._Демо_Номенклатура.Форма.ФормаЭлемента.Форма">
-            <skipped/>
-            <system-out>Отсутствует обработчик: Наименование "НаименованиеПриИзменении"</system-out>
+        <testcase classname="CheckConfig.base.Ошибка" name="Справочник.Контрагенты.Форма.ФормаЭлемента.Форма">
+            <failure type="ERROR" message="Возможно ошибочный метод: &quot;Количество&quot;"/>
         </testcase>
-        <testcase classname="CheckConfig.base.Пропущено" name="Отчет.ДашбордПродажи.МодульОбъекта">
-            <skipped/>
-            <system-out>Пустой обработчик: "ПриКомпоновкеРезультата"</system-out>
+        <testcase classname="CheckConfig.base.Ошибка" name="Справочник.Пользователи.Форма.ФормаЭлемента.Форма">
+            <failure type="ERROR" message="Возможно ошибочный метод: &quot;ВидеоконференцииДоступны&quot;"/>
         </testcase>
-        <testcase classname="CheckConfig.base.Пропущено" name="Отчет.ДашбордПродажи.Форма.ФормаОтчета.Форма">
-            <skipped/>
-            <system-out>Не обнаружено ссылок на функцию: "РасшифровкаВЗначение"
-Отсутствует обработчик: ДиаграммаПоПериодамСброситьФильтр "ДиаграммаПоПериодамСброситьФильтр"
-Отсутствует обработчик: ДиаграммаПоПокупателямСброситьФильтр "ДиаграммаПоПокупателямСброситьФильтр"
-Отсутствует обработчик: Домой "Домой"
-Отсутствует обработчик: ПредыдущийПример "ПредыдущийПример"
-Отсутствует обработчик: Форма "ПриОткрытии"
-Отсутствует обработчик: СледующийПример "СледующийПример"</system-out>
+        <testcase classname="CheckConfig.base.Ошибка" name="Справочник.Товары.Форма.ФормаЭлемента.Форма">
+            <failure type="ERROR" message="Отсутствует обработчик: Форма &quot;ПриОткрытии&quot;&#xA;Пустой обработчик: &quot;ПриПовторномОткрытии&quot;"/>
+        </testcase>
+        <testcase classname="CheckConfig.base.Ошибка" name="Документ.РасходТовара.Форма.ФормаДокумента.Форма">
+            <failure type="ERROR" message="Отсутствует обработчик: Форма &quot;ОбработкаПолученияНавигационнойСсылки&quot;&#xA;Отсутствует обработчик: Форма &quot;ОбработкаПолученияСпискаНавигационныхСсылок&quot;"/>
+        </testcase>
+        <testcase classname="CheckConfig.base.Ошибка" name="Отчет.ДашбордПродажи.МодульОбъекта">
+            <failure type="ERROR" message="Пустой обработчик: &quot;ПриКомпоновкеРезультата&quot;"/>
         </testcase>
         <testcase classname="CheckConfig.base.Ошибка" name="Отчет.ДашбордПродажи.Форма.ФормаОтчета.Форма">
-            <failure type="ERROR" message="Отсутствует обработчик: ДиаграммаПоТоварамСброситьФильтр &quot;ДиаграммаПоТоварамСброситьФильтр&quot;"/>
+            <failure type="ERROR" message="Не обнаружено ссылок на функцию: &quot;РасшифровкаВЗначение&quot;&#xA;Отсутствует обработчик: ДиаграммаПоПериодамСброситьФильтр &quot;ДиаграммаПоПериодамСброситьФильтр&quot;&#xA;Отсутствует обработчик: ДиаграммаПоПокупателямСброситьФильтр &quot;ДиаграммаПоПокупателямСброситьФильтр&quot;&#xA;Отсутствует обработчик: ДиаграммаПоТоварамСброситьФильтр &quot;ДиаграммаПоТоварамСброситьФильтр&quot;&#xA;Отсутствует обработчик: Домой &quot;Домой&quot;&#xA;Отсутствует обработчик: ПредыдущийПример &quot;ПредыдущийПример&quot;&#xA;Отсутствует обработчик: СледующийПример &quot;СледующийПример&quot;&#xA;Пустой обработчик: &quot;ПриОткрытии&quot;"/>
         </testcase>
-        <testcase classname="CheckConfig.base.Пропущено" name="Обработка.НастройкиПользователя.Форма.Форма.Форма">
-            <skipped/>
-            <system-out>Отсутствует обработчик: АгентПодключен "АгентПодключенПриИзменении"</system-out>
+        <testcase classname="CheckConfig.base.Ошибка" name="Обработка.НастройкиПользователя.Форма.Форма.Форма">
+            <failure type="ERROR" message="Отсутствует обработчик: АгентПодключен &quot;АгентПодключенПриИзменении&quot;"/>
         </testcase>
-        <testcase classname="CheckConfig.base.Пропущено" name="Обработка.УправлениеСистемойВзаимодействия.Форма.Форма.Форма">
-            <skipped/>
-            <system-out>Отсутствует обработчик: EMail "EMailПриИзменении"</system-out>
+        <testcase classname="CheckConfig.base.Ошибка" name="Обработка.УправлениеСистемойВзаимодействия.Форма.Форма.Форма">
+            <failure type="ERROR" message="Отсутствует обработчик: EMail &quot;EMailПриИзменении&quot;"/>
         </testcase>
     </testsuite>
 </testsuites>

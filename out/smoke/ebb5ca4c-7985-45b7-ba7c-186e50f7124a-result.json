@@ -1,0 +1,40 @@
+{
+"uuid": "cb5e90a6-fda6-4b50-85ef-9f93e4a40cb0",
+"historyId": "Документ.Заказ.Печатные формы.Тест_ПечатьЗаказа",
+"name": "Тест_ПечатьЗаказа",
+"fullName": "",
+"start": 1659385614082,
+"stop": 1659385614319,
+"statusDetails": {
+"known": false,
+"muted": false,
+"flaky": false,
+"message": "",
+"trace": ""
+},
+"status": "passed",
+"stage": "finished",
+"steps": [],
+"parameters": [],
+"labels": [
+{
+"name": "story",
+"value": "Печатные формы"
+},
+{
+"name": "feature",
+"value": "Документ.Заказ"
+},
+{
+"name": "package",
+"value": "D:\\Project\\UNIT_TESTS\\First-steps-vanessa-runner\\tests\\xunit\\Печатные формы\\Документ_Заказ.epf"
+},
+{
+"name": "host",
+"value": "Документ.Заказ"
+}
+],
+"links": [],
+"attachments": [],
+"description": "Тест_ПечатьЗаказа"
+}

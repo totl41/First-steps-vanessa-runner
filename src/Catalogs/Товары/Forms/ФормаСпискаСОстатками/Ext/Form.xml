@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -19,6 +19,7 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="НастройкиРасширеннаяПодсказка" id="26"/>
 		</UsualGroup>
@@ -50,6 +51,7 @@
 			<AllowRootChoice>false</AllowRootChoice>
 			<UpdateOnDataChange>Auto</UpdateOnDataChange>
 			<UserSettingsGroup>Настройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
 			<ContextMenu name="СписокКонтекстноеМеню" id="9"/>
 			<AutoCommandBar name="СписокКоманднаяПанель" id="16"/>
 			<ExtendedTooltip name="СписокExtendedTooltip" id="19"/>
@@ -120,7 +122,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>СправочникСписок.Вид</Field>
+				<Field>СправочникСписок.DeletionMark</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
